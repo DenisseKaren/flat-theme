@@ -13,7 +13,7 @@
 .clearfix:after {
   clear: both;
 }
-/*{outline: 1px solid rgba(205,0,0,0.5);
+/**{outline: 1px solid rgba(205,0,0,0.5);
 }*/
 *{
      font-family: 'Roboto';
@@ -168,6 +168,9 @@ ul li{
 .footer ul{
     padding: 0;
 }
+.nav-footer{
+    padding-right: 0;
+}
 .nav-footer li{
     list-style: none;
     display: inline-block;
@@ -213,7 +216,7 @@ ul li{
     
 }
 .header .navbar-nav>li>a{
-    padding: 5px 15px  ;
+    padding: 5px 10px  ;
     color: #EBEDEE; 
     
 }
@@ -296,8 +299,8 @@ background-color: #2ECC71;
     padding-top: 35px;
 }
 .seccion2 hr{
-     border-top: #E5E5E5;
-    border-bottom: #ffffff;
+     border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #ffffff;
     margin-top: 40px ;
     margin-bottom: 40px ;
 }

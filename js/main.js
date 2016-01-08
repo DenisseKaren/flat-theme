@@ -25,7 +25,7 @@ jQuery(function ($) {
     
     
     $('.gototop').click(function (event) {
-        TweenMax.to('body',4 {'scrollTo':'(y=0)', ease:Power4, easeOut});
+        TweenMax.to('body',4{'scrollTo':'(y=0)', ease:Power4, easeOut});
         
         /*
         event.preventDefault();
